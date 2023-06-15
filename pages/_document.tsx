@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Document, { Head, Html, Main, NextScript } from 'next/document'
-
+import Script from "next/script";
 import { IconContext } from '@react-icons/all-files'
 
 export default class MyDocument extends Document {
@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
               sizes='32x32'
               href='favicon.png'
             />
-
+            <Script src='https://jic.talkingdata.com/app/h5/v1?appid=40DA7FED323341FD81943B13FF63AFE1&vn=arkreen-blog&vc=test1.0.1' strategy="afterInteractive" />
             <link rel='manifest' href='/manifest.json' />
           </Head>
 
