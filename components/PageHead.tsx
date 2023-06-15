@@ -82,7 +82,7 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
-      <Script src={`https://jic.talkingdata.com/app/h5/v1?appid=40DA7FED323341FD81943B13FF63AFE1&vn=arkreen-blog&vc=test1.0.1`} strategy="afterInteractive" />
+      <Script src='https://jic.talkingdata.com/app/h5/v1?appid=40DA7FED323341FD81943B13FF63AFE1&vn=arkreen-blog&vc=test1.0.1' strategy="afterInteractive" />
     </Head>
   )
 }
